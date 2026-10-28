@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  width: 1600px;
+  margin: 0 auto;
+  
+}
+.color-orange{
+    color:#FD6E0A;
+}
+.btn{
+    background-color:#FD6E0A ;
+    padding: 18px 35px;
+    color: white;
+    border-radius: 5px;
+    
+}
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: 28px 23px , bottom right;
+    margin-bottom: 102px;
+}
+.logo{
+    font-size: 45px;
+    
+}
+nav{
+    width: 71%;
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 71px;
+    list-style-type: none;
+    align-items: center;
+   
+}
+
+/* banner/hero section css */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left:235px;
+    align-items: center;
+
+    
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-content h3{
+    font-size: 45px;
+}
+.banner-content h1{
+    font-size: 80px;
+}
+.banner-content p{
+    line-height: 18px;
+}
+.banner-content-btn{
+  margin-top: 30px;
+}
+/* About section */
+.container{
+max-width: 1140px;
+margin: 0 auto;
+background-color: #FFF8F3;
+}
+.about-section{
+    padding: 130px 157px 130px 157px;
+    
+}
+
+.text{
+    text-align: center;
+     
+}
+
+.info{
+    display: flex;
+    max-width: 782px;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.info div p{
+    text-align: center;
+}
+
+/* What i do section */
+
+.what-i-do{
+  margin:0 auto;
+  max-width: 827px;
+}
+
+.what-i-do div{
+    justify-items: center;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.what-i-do div h1{
+    padding: 30px;
+}
+
+/* CARD SECTION */
+.card-section{
+    margin-top: 50px;
+    margin-bottom: 130px;
+    display: flex;
+    padding-right:24px;
+    justify-content: center;
+}
+.card{
+    max-width: 267px;
+    max-height: 377px;
+    text-align: left;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+   
+}
+.card h1{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.card-body p{
+    font-size: 18px;
+    color:gray;
+}
+/* Summary of Resume */
+.summary-title{
+    text-align: center;
+}
+.edu-and-exp{
+    display: flex;
+    gap: 20px;
+    padding: 30px 50px;
+}
+.edu-and-exp hr{
+    margin-top: 10px;
+}
+.edu h1{
+    margin-bottom: 30px;
+}
+.edu div{
+    padding: 30px;
+}
+
+.exp h1{
+    margin-bottom: 30px;
+}
+.exp div{
+    padding: 30px;
+}
+.summary-btn{
+   text-align: center;
+   margin-bottom: 113px;
+
+}
+/* footer section */
+
+.footer-section{
+    background-color:#FFF8F3 ;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 230px;
+    gap: 60px;
+}
+.letsConnect h1{
+    margin-bottom: 28px;
+}
+.messageme h1{
+    margin-bottom: 28px;
+}
+.messageme form{
+    gap: 24px;
+}
+.messageme form input{
+   width: 461px;
+   height: 64px;
+   padding: 10px;
+   display: block;
+   margin-bottom: 15px;
+
+}
+.messageme form div textarea {
+    width: 461px;
+    height: 180px;
+    padding: 10px;
+}
